@@ -40,13 +40,10 @@ We've built a robust and scalable architecture to ensure a seamless user experie
 
 | Category | Technologies Used |
 | :--- | :--- |
-| **Frontend** |    |
-| **Backend** |   |
-| **AI/ML** |  |
-| **Integrations**| |
-| **Database**| *(Please add your database here)* |
+| **Frontend** |  HTML, CSS and JavaScript |
+| **Backend** | Python, Streamlit|
+| **AI/ML** | AI/ML Engine: Decision Tree, Natural Language Processing (NLP) for intelligent matching and recommendations.
+Deep Learning Frameworks: PyTorch for complex AI models. |
+| **Integrations**| Google Maps API for location- based services (e.g., nearby institutes). |
 
 -----
-### **📄 License**
-
-This project is licensed under the [Your License Name] License. See the `LICENSE` file for details.
