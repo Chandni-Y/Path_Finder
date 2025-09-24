@@ -42,8 +42,7 @@ We've built a robust and scalable architecture to ensure a seamless user experie
 | :--- | :--- |
 | **Frontend** |  HTML, CSS and JavaScript |
 | **Backend** | Python, Streamlit|
-| **AI/ML** | AI/ML Engine: Decision Tree, Natural Language Processing (NLP) for intelligent matching and recommendations. 
-              Deep Learning Frameworks: PyTorch for complex AI models. |
+| **AI/ML** | AI/ML Engine: Decision Tree, Natural Language Processing (NLP) for intelligent matching and recommendations. Deep Learning Frameworks: PyTorch for complex AI models. |
 | **Integrations**| Google Maps API for location- based services (e.g., nearby institutes). |
 
 -----
