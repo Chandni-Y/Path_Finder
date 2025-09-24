@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PathFinder - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-left">
+            <div class="menu-icon" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i> PathFinder
+            </div>
+        </div>
+        <div class="header-right">
+            <a href="https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual" target="_blank" class="nav-link language-link">
+                <i class="fas fa-globe-asia"></i> Language
+            </a>
+            <a href="login.html" class="nav-link">Login</a>
+            <a href="register.html" class="nav-link register-btn">Register</a>
+        </div>
+    </header>
+
+    <nav class="side-menu" id="side-menu">
+        <a href="index.html" class="menu-item">Home</a>
+        <a href="dashboard.html" class="menu-item active">Dashboard</a>
+        <a href="#" class="menu-item">Quiz</a>
+        <a href="#" class="menu-item">Institutions</a>
+        <a href="#" class="menu-item">Subjects</a>
+        <a href="#" class="menu-item">About Us</a>
+    </nav>
+
+    <main class="form-page">
+        <div class="form-container">
+            <h2>Login to Your Account</h2>
+            <form>
+                <div class="form-group">
+                    <label for="govIdType">Government ID Type</label>
+                    <select id="govIdType" name="govIdType">
+                        <option value="aadhar">Aadhar Card</option>
+                        <option value="pan">PAN Card</option>
+                        <option value="driverLicense">Driver's License</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="govIdNumber">Government ID Number</label>
+                    <input type="text" id="govIdNumber" name="govIdNumber" placeholder="Enter your ID number" required>
+                </div>
+                <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+                <button type="submit" class="cta-button form-button">Login</button>
+            </form>
+            <p class="form-switch">Don't have an account? <a href="register.html">Register here</a></p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#">About</a> | <a href="#">Contact</a> | <a href="#">Privacy Policy</a>
+        </div>
+        <p>Powered by AI Career Guidance System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
